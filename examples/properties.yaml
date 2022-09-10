@@ -1,0 +1,29 @@
+app:
+  - server: https://int.mailshooter.dev/v1
+    databases:
+    - host: 127.0.0.1
+      port: 3306
+      user: int
+      password: int-password
+      database: int
+  - server: https://rec.mailshooter.dev/v1
+    databases:
+    - host: 127.0.0.1
+      port: 3306
+      user: rec 
+      password: rec-password
+      database: rec
+  - server: https://preprod.mailshooter.dev/v1
+    databases:
+    - host: 127.0.0.1
+      port: 3306
+      user: int
+      password: preprod-password
+      database: preprod
+  - server: https://prod.mailshooter.dev/v1
+    databases:
+    - host: 127.0.0.1
+      port: 3306
+      user: prod
+      password: prod-password
+      database: prod
